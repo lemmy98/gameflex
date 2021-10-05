@@ -1,0 +1,32 @@
+header {
+    margin-top: 0;
+    background-color: white;
+}
+.logo-div {
+    margin-top: 5px;
+    text-align: center;
+    /* background-color: rgb(255, 255, 255); */
+}
+nav{
+    
+}
+.fas {
+    color: black;
+}
+.nav-links{
+    margin-top: 10px;
+    list-style-type: none;
+    margin: auto;
+    color: black;
+    width: 50%;
+}
+.nav-link {
+    display: inline-block;
+    border-right: 1px;
+}
+.right {
+    margin-right: 0;
+}
+.auth {
+    margin-right: 20px;
+}
