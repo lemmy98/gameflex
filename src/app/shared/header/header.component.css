@@ -18,7 +18,6 @@ nav{
     list-style-type: none;
     margin: auto;
     color: black;
-    width: 50%;
 }
 .nav-link {
     display: inline-block;
