@@ -1,3 +1,4 @@
+/* Footer Section */
 ul {
     list-style: none;
     padding-left: 0px;
@@ -27,9 +28,6 @@ ul {
 	margin-top: 0px;
 	margin-bottom: 15px;
     text-align: left;
-}
-pre {
-    overflow: hidden;
 }
 .ftr_logo {
     float: left;
@@ -165,10 +163,4 @@ pre {
 }
 .copyright_text{
     margin: 6px 0;
-}
-.payment_mthd_icon li {
-	display: inline-block;
-	margin-left: 10px;
-	font-size: 30px;
-	color: black;
 }

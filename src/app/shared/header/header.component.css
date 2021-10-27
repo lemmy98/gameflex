@@ -1,31 +1,67 @@
-header {
-    margin-top: 0;
-    background-color: white;
+.head {
+    background-color:rgb(255, 255, 255);
 }
-.logo-div {
-    margin-top: 5px;
-    text-align: center;
-    /* background-color: rgb(255, 255, 255); */
+.hamburger {
+    display: none;
 }
-nav{
-    
+.navigation {
+    background-color: lightgrey;
 }
-.fas {
-    color: black;
-}
-.nav-links{
-    margin-top: 10px;
-    list-style-type: none;
+.nav {
+    width: 80%;
     margin: auto;
-    color: black;
 }
-.nav-link {
-    display: inline-block;
-    border-right: 1px;
+.nav a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
-.right {
-    margin-right: 0;
+.nav a:hover {
+    background-color: lightgreen;
 }
-.auth {
-    margin-right: 20px;
+
+
+
+
+
+@media screen and (max-width:415px) {
+    .head {
+        width: 50%;
+        float: left;
+    }
+    .main-logo {
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+    }
+    .menu {
+        width: 50%;
+        float:right;
+        background-color: white;
+    }
+    .hamburger {
+        display: block;
+        height: 79.67px;
+        padding: 15px;
+        float: right;
+        border: none;
+        background-color: white;
+    }
+    .fa-bars {
+        font-size: 20px;
+        width: 40px;
+    }
+    .navigation {
+        clear: both;
+        width: 100%;
+    }
+    #navigation{
+        display: none;
+    }
+    .nav-link {
+        width: 100%;
+    }
 }
