@@ -10,6 +10,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { NewsComponent } from './news/news.component';
 import { VideosComponent } from './videos/videos.component';
 import { ReviewComponent } from './review/review.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 
 
@@ -20,7 +21,8 @@ import { ReviewComponent } from './review/review.component';
     AboutUsComponent,
     NewsComponent,
     VideosComponent,
-    ReviewComponent
+    ReviewComponent,
+    ContactUsComponent
   ],
   imports: [
     CommonModule,
