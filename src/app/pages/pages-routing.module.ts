@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutUsComponent } from './about-us/about-us.component';
 
+
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { NewsComponent } from './news/news.component';
 import { PagesComponent } from './pages.component';
@@ -15,6 +17,7 @@ const routes: Routes = [
     children: [
       {path: '', component: LandingPageComponent},
       {path: 'about-us', component: AboutUsComponent},
+      {path: 'contact-us', component: ContactUsComponent},
       {path: 'news', component: NewsComponent},
       {path: 'videos', component: VideosComponent},
       {path: 'review', component: ReviewComponent}
