@@ -31,6 +31,7 @@ img {
 .a {
     color: rgb(32, 26, 44);
     font-size: 25px;
+    font-family: 'Trykker', serif;
 }
 
 .learn-btn {
@@ -40,8 +41,10 @@ img {
     font-size: 15px;
     color: white;
     background-image: linear-gradient(to right, rgb(7, 27, 82, 1) 0%, rgba(0, 128, 128, 1) 100%);
+    font-family: 'Trykker', serif;
 }
 
 .texts {
     color: rgb(32, 26, 44);
+    font-family: 'Marck Script', cursive;
 }
