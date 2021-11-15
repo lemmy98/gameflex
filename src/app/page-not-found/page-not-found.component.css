@@ -1,0 +1,18 @@
+body {
+    padding: 50px;
+    font-weight: 400;
+    font-family: Poppins; 
+    height: 100%;
+}
+.container {
+    width: 100%;
+    background: #f8f8f8;
+    margin: auto;
+}
+
+h3 {
+    font-size: 100px;
+}
+p {
+    font-size: 50px;
+}
