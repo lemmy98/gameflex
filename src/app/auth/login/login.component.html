@@ -1,5 +1,37 @@
 <app-header></app-header>
 
+<body>
+    <div class="contaner">
+        <div class="signin-content">
+            <div class="signin-form">
+                <h2 class="form-title">Log In</h2>
+                <form method="" class="register-form" id="login-form">
+                    <div class="form-group">
+                        <label for="your_name"><i class="fas fa-user"></i></label>
+                        <input type="text" name="username" id="your_name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="your_pass"><i class="fas fa-lock"></i></label>
+                        <input type="password" name="password" id="your_pass" placeholder="Password">
+                    </div>
+                    <div class="form-group form-button">
+                        <input type="submit" name="signin" id="signin" class="form-submit" value="Log in">
+                    </div>
+                </form>
+                <br><br><br><br><br><br>
+                <p>Forgot Password? <a style="text-decoration: none;" class="form-submit" href="#">Reset Now</a></p>
+            </div>
+    
+            <div class="signin-image">
+                <figure><img src="assets/images/signin-image.jpg" alt="Login image"></figure>
+                <a routerLink="/sign-up" class="signin-image-link">Create an account</a>
+            </div>
+        
+            
+        </div>    
+    </div>
+</body>
+
 
 
 <app-footer></app-footer>
