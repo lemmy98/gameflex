@@ -92,7 +92,60 @@ figure {
 }
 .signup-image-link {
     font-size: 14px;
-    color: #222;
+    color: #2252;
     display: block;
     text-align: center; 
   }
+
+
+@media screen and (max-width: 415px) {
+    body {
+        
+    }
+    .container {
+        width: 100%;
+    }
+    .signup-content, .signin-content {
+        display: block;
+        width: 100%;
+    }
+
+    .signup-form {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        box-sizing: border-box; 
+        padding: 0; 
+    }
+
+    .signup-image {
+        
+    }
+
+    .signin-image {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 50px;
+        order: 2; 
+    }
+
+    .signup-form, .signup-image, .signin-form, .signin-image {
+        width: 100%; 
+    }
+
+    .form-button {
+        text-align: center; 
+    }
+
+   
+
+    .form-title {
+        text-align: center; 
+        } 
+}
+/* .signin-form {
+    order: 1;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0 30px; 
+} */
