@@ -11,6 +11,9 @@ import { NewsComponent } from './news/news.component';
 import { VideosComponent } from './videos/videos.component';
 import { ReviewComponent } from './review/review.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { TopRatedComponent } from './top-rated/top-rated.component';
+import { UpcomingGamesComponent } from './upcoming-games/upcoming-games.component';
+import { AddReviewComponent } from './add-review/add-review.component';
 
 
 
@@ -22,7 +25,10 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     NewsComponent,
     VideosComponent,
     ReviewComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    TopRatedComponent,
+    UpcomingGamesComponent,
+    AddReviewComponent
   ],
   imports: [
     CommonModule,
