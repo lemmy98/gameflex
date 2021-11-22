@@ -1,0 +1,108 @@
+    /* font-family: 'Marck Script',
+cursive;
+font-family: 'Trykker',
+serif;
+font-family: 'Vollkorn',
+serif; */
+    
+    section {
+        background-color: #D3D3D3;
+        height: 500px;
+        margin-top: 40px;
+    }
+    
+    .contact-main {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        grid-gap: 10px;
+        justify-items: stretch;
+        width: 80%;
+        line-height: 1;
+        margin: auto;
+        padding: 10px;
+        padding-top: 30px;
+        margin-bottom: 30px;
+        font-family: 'Vollkorn', serif;
+    }
+    
+    h1 {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .img-section {
+        margin-top: 30px;
+        /* padding-left: 30px; */
+    }
+    
+    img {
+        width: 95%;
+        height: 100%;
+        min-width: 200px;
+    }
+    
+    contact-section {
+        margin: auto;
+        width: auto;
+    }
+    
+    .contact {
+        margin-right: 23%;
+    }
+    
+    .border-section {
+        border: 2px solid black;
+        border-bottom-right-radius: 30px;
+        height: 350px;
+        width: 450px;
+        display: grid;
+        grid-template-columns: 1.1fr 1fr;
+        grid-gap: 10px;
+        text-align: left;
+    }
+    
+    .info {
+        padding-left: 30px;
+        padding-top: 35px;
+    }
+    
+    .words {
+        /* padding-right: 23px; */
+        margin-right: 230px;
+        margin-top: 65px;
+        line-height: 1;
+        font-family: 'Trykker', serif;
+    }
+    
+    input {
+        border: none;
+        border-bottom: 2px solid black;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #D3D3D3;
+        outline: none;
+    }
+    
+     ::placeholder {
+        color: black;
+    }
+    
+     :-ms-input-placeholder {
+        color: black;
+    }
+    
+     ::-ms-input-placeholder {
+        color: black;
+    }
+    
+    button {
+        width: 170px;
+        height: 35px;
+        border-radius: 20px;
+        border: 1px solid black;
+        color: white;
+        background-color: black;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-family: 'Trykker', serif;
+    }
