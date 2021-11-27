@@ -1,11 +1,40 @@
 body {
-    
+    padding: 0;
+    margin: 30px;
+    display: flex;
 }
 
-.container {
-
+.main-review {
+    width: 60%;
+    margin-right: 20px;
 }
 
-.add-review-btn {
 
+.tooltiptext {
+    background: #f8f8f8;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+    visibility: hidden;
 }
+
+.add-review-btn a i {
+    padding: 15px;
+    font-size: 30px;
+    color: black;
+}
+
+.add-review-btn:hover .tooltiptext {
+    visibility: visible;
+}
+
+.side-bar {
+    width: 35%;
+    background: #f8f8f8;
+}
+
+#comment-width {
+     width: 60%;
+     word-wrap: break-word;
+ }
