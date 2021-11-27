@@ -8,7 +8,11 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { NewsComponent } from './news/news.component';
 import { PagesComponent } from './pages.component';
 import { ReviewComponent } from './review/review.component';
+import { AddReviewComponent } from './add-review/add-review.component';
 import { VideosComponent } from './videos/videos.component';
+import { GamesComponent } from './games/games.component';
+import { TopRatedComponent } from './top-rated/top-rated.component';
+import { UpcomingGamesComponent } from './upcoming-games/upcoming-games.component';
 
 const routes: Routes = [
   {
@@ -20,7 +24,11 @@ const routes: Routes = [
       {path: 'contact-us', component: ContactUsComponent},
       {path: 'news', component: NewsComponent},
       {path: 'videos', component: VideosComponent},
-      {path: 'review', component: ReviewComponent}
+      {path: 'review', component: ReviewComponent},
+      {path: 'add-review', component: AddReviewComponent},
+      {path: 'games', component: GamesComponent},
+      {path: 'top-rated', component: TopRatedComponent},
+      {path: 'upcoming-games', component: UpcomingGamesComponent}
     ]
   }
 ];
