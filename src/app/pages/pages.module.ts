@@ -15,6 +15,7 @@ import { TopRatedComponent } from './top-rated/top-rated.component';
 import { UpcomingGamesComponent } from './upcoming-games/upcoming-games.component';
 import { AddReviewComponent } from './add-review/add-review.component';
 import { GamesComponent } from './games/games.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 
@@ -30,7 +31,8 @@ import { GamesComponent } from './games/games.component';
     TopRatedComponent,
     UpcomingGamesComponent,
     AddReviewComponent,
-    GamesComponent
+    GamesComponent,
+    CarouselComponent
   ],
   imports: [
     CommonModule,
