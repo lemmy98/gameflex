@@ -12,7 +12,7 @@
       </button> -->
       <div class="menu">
         <button id="navButton" (click)="navBtn1()" class="hamburger">
-            <!-- <i class="fa fa-bars"></i> -->
+            <i class="fa fa-bars"></i>
           </button>
       </div>
       
@@ -24,14 +24,15 @@
                 <a class="flex-sm-fill text-sm-center nav-link" routerLink="/games">Games</a>
                 <a class="flex-sm-fill text-sm-center nav-link" routerLink="/news">News</a>
                 <a class="flex-sm-fill text-sm-center nav-link" routerLink="/videos">Videos</a>
-                <a class="flex-sm-fill text-sm-center nav-link" routerLink="/login">Login</a>
-                <a class="flex-sm-fill text-sm-center nav-link" routerLink="/sign-up">Sign Up</a>
                 <div >
                   <a (click)='onClick()' id="searchIcon" class="flex-sm-fill text-sm-center nav-link"><i class="fas fa-search"></i></a>
                   <div id="searchInput">
                     <input class="search" type="text">
                   </div>
                 </div>
+                <a class="flex-sm-fill text-sm-center nav-link" routerLink="/login">Login</a>
+                <a class="flex-sm-fill text-sm-center nav-link" routerLink="/sign-up">Sign Up</a>
+                
                 
               </nav>
               
