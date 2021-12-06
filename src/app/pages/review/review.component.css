@@ -52,6 +52,22 @@ body {
     width: 35%;
     background: #f8f8f8;
 }
+.find-review h3 {
+    text-align: center;
+}
+.find-review button {
+    /* margin: auto; */
+}
+.sorts {
+    display: flex;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+.sorts label {
+    width: 100%;
+}
 
 .most-review {
 
