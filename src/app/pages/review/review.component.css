@@ -18,9 +18,19 @@ body {
     padding: 5px;
     visibility: hidden;
 }
+.sortBtn {
+    display: flex;
+}
+.sort {
+    width: 50%;
+    font-size: 20px;
+}
+.add-review-btn {
+    font-size: 20px;
+}
 
 .add-review-btn a i {
-    padding: 15px;
+    padding: 10px;
     font-size: 30px;
     color: black;
 }
@@ -28,13 +38,30 @@ body {
 .add-review-btn:hover .tooltiptext {
     visibility: visible;
 }
+#comment-width {
+    width: 90%;
+    word-wrap: break-word;
+}
+
+.right {
+    float: right;
+    display: flex;
+}
 
 .side-bar {
     width: 35%;
     background: #f8f8f8;
 }
 
-#comment-width {
-     width: 60%;
-     word-wrap: break-word;
- }
+.most-review {
+
+}
+
+.recommend {
+    
+}
+
+.recommendation {
+    display: flex;
+    justify-content: space-between;
+}
