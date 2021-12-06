@@ -43,6 +43,10 @@ body {
     word-wrap: break-word;
 }
 
+.right {
+    float: right;
+    display: flex;
+}
 
 .side-bar {
     width: 35%;
@@ -55,4 +59,9 @@ body {
 
 .recommend {
     
+}
+
+.recommendation {
+    display: flex;
+    justify-content: space-between;
 }

@@ -17,26 +17,22 @@
       </div>
       
     
-      <div class="container-fluid navigation hide" id="navigation">
-            <nav class="nav">
+      <div class="container-fluid navigation" id="navigation">
+            <nav class="nax">
                 <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" routerLink="">Home</a>
                 <a class="flex-sm-fill text-sm-center nav-link" routerLink="/review">Review</a>
                 <a class="flex-sm-fill text-sm-center nav-link" routerLink="/games">Games</a>
                 <a class="flex-sm-fill text-sm-center nav-link" routerLink="/news">News</a>
                 <a class="flex-sm-fill text-sm-center nav-link" routerLink="/videos">Videos</a>
-                <div >
-                  <a (click)='onClick()' id="searchIcon" class="flex-sm-fill text-sm-center nav-link"><i class="fas fa-search"></i></a>
-                  <div id="searchInput">
-                    <input class="search" type="text">
-                  </div>
-                </div>
-                <a class="flex-sm-fill text-sm-center nav-link" routerLink="/login">Login</a>
-                <a class="flex-sm-fill text-sm-center nav-link" routerLink="/sign-up">Sign Up</a>
                 
+                <a (click)='onClick()' id="searchIcon" class="flex-sm-fill text-sm-center nav-link right"><i class="fas fa-search"><input id="searchInput" class="search right" type="text"></i></a>
                 
-              </nav>
+                <a class="flex-sm-fill text-sm-center nav-link right" routerLink="/sign-up">Sign Up</a>
+                <a class="flex-sm-fill text-sm-center nav-link right" routerLink="/login">Login</a>
+                
+            </nav>
               
-              
-        </div>
+            
+      </div>
   </div>
 </header>

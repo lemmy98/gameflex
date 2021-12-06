@@ -18,8 +18,6 @@ export class HeaderComponent implements OnInit {
  navBtn1(){
    navBtn();
  }
-
- 
  
  onClick() {
    let sIcon: any = document.getElementById('searchIcon');

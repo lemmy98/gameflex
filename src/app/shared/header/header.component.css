@@ -7,24 +7,45 @@
 .navigation {
     background-color: lightgrey;
 }
-.nav {
+
+nav.nax {
     width: 80%;
     margin: auto;
 }
-.nav a {
-    display: block;
+.nax a {
+    display: inline-block;
+    justify-content: space-between;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    margin-right: 20px;
 }
-.nav a:hover {
+.nax a:hover {
     background-color: lightgreen;
+}
+
+#searchIcon {
+    display: inline-block;
+}
+.right {
+    float: right;
 }
 
 #searchInput {
     display: none;
+    margin-left: 15px;
+    /* 
+    width: 200px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 2px;
+    transition: width 0.4s ease-in-out; */
 }
 
 
