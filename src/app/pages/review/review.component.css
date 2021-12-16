@@ -42,10 +42,30 @@ body {
     width: 90%;
     word-wrap: break-word;
 }
+.review-section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.review-image {
+    float: left;
+}
+.review-image img {
+    width: 100px;
+    margin-right: 10px;
+}
+.review-content {
+    /* margin-left: 10px; */
+}
 
 .right {
-    float: right;
+    /* float: right; */
     display: flex;
+}
+.right h6{
+    margin-right: 20px;
+}
+.border-bottom {
+    border-bottom: 2px solid black;
 }
 
 .side-bar {
@@ -69,8 +89,17 @@ body {
     width: 100%;
 }
 
-.most-review {
+.latest-features {
 
+}
+.feature-title {
+    float: left;
+}
+.feature-image {
+    float: left;
+}
+.feature-image img{
+    width: 20%;
 }
 
 .recommend {
@@ -79,5 +108,5 @@ body {
 
 .recommendation {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
