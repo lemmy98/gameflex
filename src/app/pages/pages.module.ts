@@ -16,6 +16,7 @@ import { UpcomingGamesComponent } from './upcoming-games/upcoming-games.componen
 import { AddReviewComponent } from './add-review/add-review.component';
 import { GamesComponent } from './games/games.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { NewsDetailsComponent } from './news-details/news-details.component';
 
 
 
@@ -32,7 +33,8 @@ import { CarouselComponent } from './carousel/carousel.component';
     UpcomingGamesComponent,
     AddReviewComponent,
     GamesComponent,
-    CarouselComponent
+    CarouselComponent,
+    NewsDetailsComponent
   ],
   imports: [
     CommonModule,
