@@ -13,6 +13,7 @@ import { VideosComponent } from './videos/videos.component';
 import { GamesComponent } from './games/games.component';
 import { TopRatedComponent } from './top-rated/top-rated.component';
 import { UpcomingGamesComponent } from './upcoming-games/upcoming-games.component';
+import { NewsDetailsComponent } from './news-details/news-details.component';
 
 const routes: Routes = [
   {
@@ -28,7 +29,8 @@ const routes: Routes = [
       {path: 'add-review', component: AddReviewComponent},
       {path: 'games', component: GamesComponent},
       {path: 'top-rated', component: TopRatedComponent},
-      {path: 'upcoming-games', component: UpcomingGamesComponent}
+      {path: 'upcoming-games', component: UpcomingGamesComponent},
+      {path: 'news-details', component: NewsDetailsComponent},
     ]
   }
 ];
