@@ -1,12 +1,13 @@
 <app-header></app-header>
-
-<div class="container">
-    <h2>Games</h2>
+<div class="games-container-flex">
+    <div class="games_heading">
+        <h1>GAMES</h1>
+    </div>
+    <div class="container game_card" *ngFor ="let item of data">
+        <h2>{{item.image}}</h2>
+        <p>{{item.title}}</p>
+        <P>{{item.releaseDate}}</P>
+    
+    </div>
 </div>
-
-<div class="">
-
-</div>
-
-
 <app-footer></app-footer>
