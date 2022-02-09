@@ -1,0 +1,60 @@
+{
+  "signupUsers": [
+    {
+      "name": "lemmy",
+      "email": "lemikan@gmail.com",
+      "password": "lemikan",
+      "confirmPassword": "lemikan",
+      "id": 1
+    },
+    {
+      "name": "Temitope",
+      "email": "temitope@gmail.com",
+      "password": "asd",
+      "confirmPassword": "asd",
+      "id": 2
+    },
+    {
+      "name": "victor",
+      "email": "vic@gmail.com",
+      "password": "vic",
+      "confirmPassword": "vic",
+      "id": 3
+    },
+    {
+      "name": "bambi",
+      "email": "bambi@gmail.com",
+      "password": "bam",
+      "confirmPassword": "bam",
+      "id": 4
+    },
+    {
+      "name": "chuks",
+      "email": "chuks@gmail.com",
+      "password": "chu",
+      "confirmPassword": "chu",
+      "id": 6
+    },
+    {
+      "username": "bambi2",
+      "email": "bambi2@gmail.com",
+      "password": "bams",
+      "confirmPassword": "bams",
+      "id": 7
+    },
+    {
+      "name": "wale",
+      "email": "wale@gmail.com",
+      "password": "wale",
+      "confirmPassword": "wale",
+      "id": 8
+    },
+    {
+      "username": "star",
+      "email": "star@gmail.com",
+      "password": "star1234",
+      "confirmPassword": "star1234",
+      "id": 9
+    }
+  ]
+}

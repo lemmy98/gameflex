@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+body {
+
+}
+
+div.container {
+    display: flex;
+}
+.add-review-btn {
+    float: right;
+=======
 .games_heading {
     background-color: rgb(23, 23, 61);
     color: white;
@@ -23,4 +34,5 @@
     transition: 0.3s;
     border-radius: 5px;
     /* flex: 1; */
+>>>>>>> c013412fa0647aac373b329a5e799de3e9ca00f2
 }
