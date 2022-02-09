@@ -6,26 +6,39 @@
         <div class="signup-content">
             <div class="signup-form">
                 <h2 class="form-title">Sign up</h2>
-                <form method="POST" class="register-form" id="register-form">
-                    <input type="hidden" name="csrfmiddlewaretoken" value="8VPJSbQZo3cE92FXl05ar5kwTHgoFxovkPwCzPSgX4OMNQSkXgTNAfN3aJphgAe6">
+                <form [formGroup]="signUpForm" (ngSubmit)="signUp()">
+                    
                     <div class="form-group">
                         <label for="name"><i class="fas fa-user"></i></label>
-                        <input type="text" name="username" maxlength="150" autofocus="" required="" id="id_username" placeholder=" Username..">
+                        <input formControlName="username" [class.is-invalid]="signUpForm?.get('username')?.invalid && signUpForm?.get('username')?.touched" type="text" name="username" placeholder=" Username..">
+                        <div>
+                            <small [class.d-none]="signUpForm?.get('username')?.valid || signUpForm?.get('username')?.untouched" class="text-danger" >Username is required</small>
+                        </div>
                     </div>
+                    
                     <div class="form-group">
                         <label for="email"><i class="fas fa-envelope"></i></label>
-                        <input type="email" name="email" maxlength="254" id="id_email" placeholder=" Email..">
+                        <input [class.is-invalid]="signUpForm?.get('email')?.invalid && signUpForm?.get('email')?.touched" formControlName="email" type="email" name="email" placeholder=" Email..">
+                        <div *ngIf="signUpForm?.get('email')?.invalid && signUpForm?.get('email')?.touched"> 
+                            <small class="text-danger" *ngIf="signUpForm?.get('email')?.errors?.required">Email is required</small> 
+                            <small class="text-danger" *ngIf="signUpForm?.get('email')?.errors?.email">Email is invalid</small> 
+                        </div>
                     </div>
                     <div class="form-group">
                         <label for="pass"><i class="fas fa-lock"></i></label>
-                        <input type="password" name="password1" required="" id="id_password1" placeholder=" Enter Password..">
+                        <input [class.is-invalid]="signUpForm?.get('password')?.invalid && signUpForm?.get('password')?.touched" formControlName="password" type="password"  required="" id="id_password1" placeholder=" Enter Password..">
+                        <div *ngIf="signUpForm?.get('password')?.invalid && signUpForm?.get('password')?.touched"> 
+                            <small class="text-danger" *ngIf="signUpForm?.get('password')?.errors?.required">Password is required</small> 
+                            <small class="text-danger" *ngIf="signUpForm?.get('password')?.errors?.minlength">Password is invalid</small> 
+                        </div>
                     </div>
                     <div class="form-group">
                         <label for="re-pass"><i class="fas fa-lock"></i></label>
-                        <input type="password" name="password2" required="" id="id_password2" placeholder=" Re-enter Password..">
+                        <input formControlName="confirmPassword" type="password" name="password2" required="" id="id_password2" placeholder=" Re-enter Password..">
                     </div>
                     <div class="form-group form-button">
-                        <input type="submit" name="signup" id="signup" class="form-submit" value="Register">
+                       
+                        <button [disabled]="!signUpForm?.valid" class="form-submit" type="submit">Sign Up</button>
                     </div>
                 </form>
             </div>
