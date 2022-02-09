@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 
 }
@@ -7,4 +8,31 @@ div.container {
 }
 .add-review-btn {
     float: right;
+=======
+.games_heading {
+    background-color: rgb(23, 23, 61);
+    color: white;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.games-container-flex{
+    display: flex;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+.game_card {
+    width: 250px;
+    height: 270px;
+    margin: 25px;
+    color: black;
+    background-color: rgb(165, 165, 165);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    /* flex: 1; */
+>>>>>>> c013412fa0647aac373b329a5e799de3e9ca00f2
 }

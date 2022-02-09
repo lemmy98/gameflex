@@ -1,4 +1,5 @@
 <app-header></app-header>
+<<<<<<< HEAD
 
 <div class="container">
     <h2>All Games</h2>
@@ -16,3 +17,21 @@
 
 
 <app-footer></app-footer>
+=======
+<div class="games-container-flex">
+    <div class="games_heading">
+        <h1>GAMES</h1>
+    </div>
+    <div class="add-review-btn">
+        <a routerLink="/add-review"><i class="fa fa-plus" aria-hidden="true"></i></a>
+        <span class="tooltiptext">Add Review</span>
+    </div>
+    <div class="container game_card" *ngFor ="let item of data">
+        <h2>{{item.image}}</h2>
+        <p>{{item.title}}</p>
+        <P>{{item.releaseDate}}</P>
+    
+    </div>
+</div>
+<app-footer></app-footer>
+>>>>>>> c013412fa0647aac373b329a5e799de3e9ca00f2
